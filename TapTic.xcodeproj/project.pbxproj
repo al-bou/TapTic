@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8233A482D79008C00AB6494 /* TapTicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8233A472D79008C00AB6494 /* TapTicApp.swift */; };
+		D8233A4A2D79008C00AB6494 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8233A492D79008C00AB6494 /* ContentView.swift */; };
+		D8233A4C2D79008E00AB6494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8233A4B2D79008E00AB6494 /* Assets.xcassets */; };
+		D8233A502D79008E00AB6494 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8233A4F2D79008E00AB6494 /* Preview Assets.xcassets */; };
+		D8233A5A2D79008E00AB6494 /* TapTicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8233A592D79008E00AB6494 /* TapTicTests.swift */; };
+		D8233A642D79008E00AB6494 /* TapTicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8233A632D79008E00AB6494 /* TapTicUITests.swift */; };
+		D8233A662D79008E00AB6494 /* TapTicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8233A652D79008E00AB6494 /* TapTicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8233A562D79008E00AB6494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8233A3C2D79008B00AB6494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8233A432D79008C00AB6494;
+			remoteInfo = TapTic;
+		};
+		D8233A602D79008E00AB6494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8233A3C2D79008B00AB6494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8233A432D79008C00AB6494;
+			remoteInfo = TapTic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8233A442D79008C00AB6494 /* TapTic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapTic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8233A472D79008C00AB6494 /* TapTicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTicApp.swift; sourceTree = "<group>"; };
+		D8233A492D79008C00AB6494 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8233A4B2D79008E00AB6494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8233A4D2D79008E00AB6494 /* TapTic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TapTic.entitlements; sourceTree = "<group>"; };
+		D8233A4F2D79008E00AB6494 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8233A552D79008E00AB6494 /* TapTicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8233A592D79008E00AB6494 /* TapTicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTicTests.swift; sourceTree = "<group>"; };
+		D8233A5F2D79008E00AB6494 /* TapTicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapTicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8233A632D79008E00AB6494 /* TapTicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTicUITests.swift; sourceTree = "<group>"; };
+		D8233A652D79008E00AB6494 /* TapTicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapTicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8233A412D79008C00AB6494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8233A522D79008E00AB6494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8233A5C2D79008E00AB6494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8233A3B2D79008B00AB6494 = {
+			isa = PBXGroup;
+			children = (
+				D8233A462D79008C00AB6494 /* TapTic */,
+				D8233A582D79008E00AB6494 /* TapTicTests */,
+				D8233A622D79008E00AB6494 /* TapTicUITests */,
+				D8233A452D79008C00AB6494 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8233A452D79008C00AB6494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8233A442D79008C00AB6494 /* TapTic.app */,
+				D8233A552D79008E00AB6494 /* TapTicTests.xctest */,
+				D8233A5F2D79008E00AB6494 /* TapTicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8233A462D79008C00AB6494 /* TapTic */ = {
+			isa = PBXGroup;
+			children = (
+				D8233A472D79008C00AB6494 /* TapTicApp.swift */,
+				D8233A492D79008C00AB6494 /* ContentView.swift */,
+				D8233A4B2D79008E00AB6494 /* Assets.xcassets */,
+				D8233A4D2D79008E00AB6494 /* TapTic.entitlements */,
+				D8233A4E2D79008E00AB6494 /* Preview Content */,
+			);
+			path = TapTic;
+			sourceTree = "<group>";
+		};
+		D8233A4E2D79008E00AB6494 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8233A4F2D79008E00AB6494 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8233A582D79008E00AB6494 /* TapTicTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8233A592D79008E00AB6494 /* TapTicTests.swift */,
+			);
+			path = TapTicTests;
+			sourceTree = "<group>";
+		};
+		D8233A622D79008E00AB6494 /* TapTicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D8233A632D79008E00AB6494 /* TapTicUITests.swift */,
+				D8233A652D79008E00AB6494 /* TapTicUITestsLaunchTests.swift */,
+			);
+			path = TapTicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8233A432D79008C00AB6494 /* TapTic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8233A692D79008E00AB6494 /* Build configuration list for PBXNativeTarget "TapTic" */;
+			buildPhases = (
+				D8233A402D79008C00AB6494 /* Sources */,
+				D8233A412D79008C00AB6494 /* Frameworks */,
+				D8233A422D79008C00AB6494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapTic;
+			productName = TapTic;
+			productReference = D8233A442D79008C00AB6494 /* TapTic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8233A542D79008E00AB6494 /* TapTicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8233A6C2D79008E00AB6494 /* Build configuration list for PBXNativeTarget "TapTicTests" */;
+			buildPhases = (
+				D8233A512D79008E00AB6494 /* Sources */,
+				D8233A522D79008E00AB6494 /* Frameworks */,
+				D8233A532D79008E00AB6494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8233A572D79008E00AB6494 /* PBXTargetDependency */,
+			);
+			name = TapTicTests;
+			productName = TapTicTests;
+			productReference = D8233A552D79008E00AB6494 /* TapTicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D8233A5E2D79008E00AB6494 /* TapTicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8233A6F2D79008E00AB6494 /* Build configuration list for PBXNativeTarget "TapTicUITests" */;
+			buildPhases = (
+				D8233A5B2D79008E00AB6494 /* Sources */,
+				D8233A5C2D79008E00AB6494 /* Frameworks */,
+				D8233A5D2D79008E00AB6494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8233A612D79008E00AB6494 /* PBXTargetDependency */,
+			);
+			name = TapTicUITests;
+			productName = TapTicUITests;
+			productReference = D8233A5F2D79008E00AB6494 /* TapTicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8233A3C2D79008B00AB6494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D8233A432D79008C00AB6494 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D8233A542D79008E00AB6494 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D8233A432D79008C00AB6494;
+					};
+					D8233A5E2D79008E00AB6494 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D8233A432D79008C00AB6494;
+					};
+				};
+			};
+			buildConfigurationList = D8233A3F2D79008B00AB6494 /* Build configuration list for PBXProject "TapTic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8233A3B2D79008B00AB6494;
+			productRefGroup = D8233A452D79008C00AB6494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8233A432D79008C00AB6494 /* TapTic */,
+				D8233A542D79008E00AB6494 /* TapTicTests */,
+				D8233A5E2D79008E00AB6494 /* TapTicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8233A422D79008C00AB6494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8233A502D79008E00AB6494 /* Preview Assets.xcassets in Resources */,
+				D8233A4C2D79008E00AB6494 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8233A532D79008E00AB6494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8233A5D2D79008E00AB6494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8233A402D79008C00AB6494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8233A4A2D79008C00AB6494 /* ContentView.swift in Sources */,
+				D8233A482D79008C00AB6494 /* TapTicApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8233A512D79008E00AB6494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8233A5A2D79008E00AB6494 /* TapTicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8233A5B2D79008E00AB6494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8233A642D79008E00AB6494 /* TapTicUITests.swift in Sources */,
+				D8233A662D79008E00AB6494 /* TapTicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8233A572D79008E00AB6494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8233A432D79008C00AB6494 /* TapTic */;
+			targetProxy = D8233A562D79008E00AB6494 /* PBXContainerItemProxy */;
+		};
+		D8233A612D79008E00AB6494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8233A432D79008C00AB6494 /* TapTic */;
+			targetProxy = D8233A602D79008E00AB6494 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D8233A672D79008E00AB6494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8233A682D79008E00AB6494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D8233A6A2D79008E00AB6494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapTic/TapTic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapTic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alanbouo.TapTic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8233A6B2D79008E00AB6494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapTic/TapTic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapTic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alanbouo.TapTic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8233A6D2D79008E00AB6494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alanbouo.TapTicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapTic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapTic";
+			};
+			name = Debug;
+		};
+		D8233A6E2D79008E00AB6494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alanbouo.TapTicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapTic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapTic";
+			};
+			name = Release;
+		};
+		D8233A702D79008E00AB6494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alanbouo.TapTicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapTic;
+			};
+			name = Debug;
+		};
+		D8233A712D79008E00AB6494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alanbouo.TapTicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapTic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8233A3F2D79008B00AB6494 /* Build configuration list for PBXProject "TapTic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8233A672D79008E00AB6494 /* Debug */,
+				D8233A682D79008E00AB6494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8233A692D79008E00AB6494 /* Build configuration list for PBXNativeTarget "TapTic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8233A6A2D79008E00AB6494 /* Debug */,
+				D8233A6B2D79008E00AB6494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8233A6C2D79008E00AB6494 /* Build configuration list for PBXNativeTarget "TapTicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8233A6D2D79008E00AB6494 /* Debug */,
+				D8233A6E2D79008E00AB6494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8233A6F2D79008E00AB6494 /* Build configuration list for PBXNativeTarget "TapTicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8233A702D79008E00AB6494 /* Debug */,
+				D8233A712D79008E00AB6494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8233A3C2D79008B00AB6494 /* Project object */;
+}
