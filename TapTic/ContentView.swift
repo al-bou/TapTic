@@ -26,7 +26,7 @@ struct ContentView: View {
     @State private var confettis: [Confetti] = [] // Liste des confettis
     @State private var confettiTimer: Timer? = nil // Timer pour les confettis
     @State private var hasPlayedPopSound: Set<Int> = [] // Suivi des sons joués
-    @State private var isSoundEnabled: Bool = true // État des sons (activé par défaut)
+    @State private var isSoundEnabled: Bool = false // Son désactivé par défaut
 
     // Couleurs futuristes
     private let pointColors: [Color] = [
@@ -52,7 +52,7 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             if showWelcome && touchPoints.isEmpty {
-                WelcomeView(isSoundEnabled: $isSoundEnabled) // Passe l'état des sons
+                WelcomeView()
             } else {
                 ZStack {
                     LinearGradient(gradient: Gradient(colors: [Color(red: 0.29, green: 0.0, blue: 0.50), Color(red: 0.10, green: 0.0, blue: 0.10)]), startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -100,12 +100,12 @@ struct ContentView: View {
                 }
             }
 
-            // Détection des doigts
             MultiTouchViewRepresentable(colors: pointColors, touchPoints: $touchPoints)
                 .ignoresSafeArea()
                 .onChange(of: touchPoints) { newTouchPoints in
+                    // Plus besoin de vérification de zone ici, car l'icône est gérée séparément
                     for point in newTouchPoints {
-                        if !hasPlayedPopSound.contains(point.id) {
+                        if !hasPlayedPopSound.contains(point.id) && isSoundEnabled {
                             playPopSound()
                             triggerLightHaptic()
                             hasPlayedPopSound.insert(point.id)
@@ -122,6 +122,29 @@ struct ContentView: View {
                         startTimer()
                     }
                 }
+
+            // Icône de haut-parleur en superposition, visible uniquement sur l’écran d’accueil
+            if showWelcome && touchPoints.isEmpty {
+                VStack {
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                            isSoundEnabled.toggle()
+                        }) {
+                            Image(systemName: isSoundEnabled ? "speaker.wave.3" : "speaker.slash")
+                                .symbolRenderingMode(.hierarchical)
+                                .font(.title)
+                                .frame(width: 40, height: 40)
+                                .foregroundColor(.white)
+                                .background(isSoundEnabled ? Color.green.opacity(0.7) : Color.red.opacity(0.7))
+                                .cornerRadius(20)
+                        }
+                        .padding(.top, 10)
+                        .padding(.trailing, 10)
+                    }
+                    Spacer()
+                }
+            }
         }
         .onAppear { loadSounds() }
         .onReceive(Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()) { _ in

@@ -2,7 +2,6 @@ import SwiftUI
 
 struct WelcomeView: View {
     @State private var showHands: Bool = true
-    @Binding var isSoundEnabled: Bool // Binding pour contrôler les sons
 
     var body: some View {
         ZStack {
@@ -11,6 +10,7 @@ struct WelcomeView: View {
             
             VStack {
                 Spacer()
+
                 if showHands {
                     ZStack {
                         Circle()
@@ -44,24 +44,11 @@ struct WelcomeView: View {
                     }
                 }
                 
-                Text("Appuyez et maintenez vos doigts\npour commencer !")
+                Text("Press and hold your fingers\nto start!")
                     .font(.title)
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
                     .shadow(color: Color(red: 0.5, green: 0.9, blue: 1.0, opacity: 0.5), radius: 3, x: 0, y: 2)
-                
-                // Bouton pour activer/désactiver les sons
-                Button(action: {
-                    isSoundEnabled.toggle()
-                }) {
-                    Text(isSoundEnabled ? "Désactiver le son" : "Activer le son")
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(isSoundEnabled ? Color.red : Color.green)
-                        .cornerRadius(10)
-                }
-                .padding(.top, 20)
                 
                 Spacer()
             }
